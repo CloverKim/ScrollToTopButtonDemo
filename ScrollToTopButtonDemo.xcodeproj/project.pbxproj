@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B6526BA1EF2997900CED1A0 /* NSObject+KVOMainThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6526B91EF2997900CED1A0 /* NSObject+KVOMainThread.swift */; };
+		3B71DB901EF293EE007A1B0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B71DB8F1EF293EE007A1B0A /* AppDelegate.swift */; };
+		3B71DB921EF293EE007A1B0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B71DB911EF293EE007A1B0A /* ViewController.swift */; };
+		3B71DB951EF293EE007A1B0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B71DB931EF293EE007A1B0A /* Main.storyboard */; };
+		3B71DB971EF293EE007A1B0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B71DB961EF293EE007A1B0A /* Assets.xcassets */; };
+		3B71DB9A1EF293EE007A1B0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B71DB981EF293EE007A1B0A /* LaunchScreen.storyboard */; };
+		3B71DBA51EF293EE007A1B0A /* ScrollToTopButtonDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B71DBA41EF293EE007A1B0A /* ScrollToTopButtonDemoTests.swift */; };
+		3B71DBB01EF293EE007A1B0A /* ScrollToTopButtonDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B71DBAF1EF293EE007A1B0A /* ScrollToTopButtonDemoUITests.swift */; };
+		3B71DBC01EF294A0007A1B0A /* UIScrollView+ScrollToTop_Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B71DBBF1EF294A0007A1B0A /* UIScrollView+ScrollToTop_Runtime.m */; };
+		3B71DBC21EF294E6007A1B0A /* ScrollToTopButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B71DBC11EF294E6007A1B0A /* ScrollToTopButton.swift */; };
+		DBBDE811FA7D44BE2EAC237D /* libPods-ScrollToTopButtonDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E919AD600FE3A289E7658 /* libPods-ScrollToTopButtonDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B71DBA11EF293EE007A1B0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B71DB841EF293EE007A1B0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B71DB8B1EF293EE007A1B0A;
+			remoteInfo = ScrollToTopButtonDemo;
+		};
+		3B71DBAC1EF293EE007A1B0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B71DB841EF293EE007A1B0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B71DB8B1EF293EE007A1B0A;
+			remoteInfo = ScrollToTopButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B6526B91EF2997900CED1A0 /* NSObject+KVOMainThread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+KVOMainThread.swift"; sourceTree = "<group>"; };
+		3B71DB8C1EF293EE007A1B0A /* ScrollToTopButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollToTopButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B71DB8F1EF293EE007A1B0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B71DB911EF293EE007A1B0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B71DB941EF293EE007A1B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B71DB961EF293EE007A1B0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B71DB991EF293EE007A1B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B71DB9B1EF293EE007A1B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B71DBA01EF293EE007A1B0A /* ScrollToTopButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollToTopButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B71DBA41EF293EE007A1B0A /* ScrollToTopButtonDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollToTopButtonDemoTests.swift; sourceTree = "<group>"; };
+		3B71DBA61EF293EE007A1B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B71DBAB1EF293EE007A1B0A /* ScrollToTopButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollToTopButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B71DBAF1EF293EE007A1B0A /* ScrollToTopButtonDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollToTopButtonDemoUITests.swift; sourceTree = "<group>"; };
+		3B71DBB11EF293EE007A1B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B71DBBD1EF294A0007A1B0A /* ScrollToTopButtonDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScrollToTopButtonDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		3B71DBBE1EF294A0007A1B0A /* UIScrollView+ScrollToTop_Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ScrollToTop_Runtime.h"; sourceTree = "<group>"; };
+		3B71DBBF1EF294A0007A1B0A /* UIScrollView+ScrollToTop_Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ScrollToTop_Runtime.m"; sourceTree = "<group>"; };
+		3B71DBC11EF294E6007A1B0A /* ScrollToTopButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollToTopButton.swift; sourceTree = "<group>"; };
+		5725D6053BE60A26C0BE96C3 /* Pods-ScrollToTopButtonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollToTopButtonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollToTopButtonDemo/Pods-ScrollToTopButtonDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B16E919AD600FE3A289E7658 /* libPods-ScrollToTopButtonDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScrollToTopButtonDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE1156FEDAA8CD12059839E /* Pods-ScrollToTopButtonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollToTopButtonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollToTopButtonDemo/Pods-ScrollToTopButtonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B71DB891EF293EE007A1B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBDE811FA7D44BE2EAC237D /* libPods-ScrollToTopButtonDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B71DB9D1EF293EE007A1B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B71DBA81EF293EE007A1B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		213E0C0C73A1BD22164B6DFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDE1156FEDAA8CD12059839E /* Pods-ScrollToTopButtonDemo.debug.xcconfig */,
+				5725D6053BE60A26C0BE96C3 /* Pods-ScrollToTopButtonDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3B6526BB1EF29A4600CED1A0 /* ScrollToTopButton */ = {
+			isa = PBXGroup;
+			children = (
+				3B71DBC11EF294E6007A1B0A /* ScrollToTopButton.swift */,
+				3B71DBBE1EF294A0007A1B0A /* UIScrollView+ScrollToTop_Runtime.h */,
+				3B71DBBF1EF294A0007A1B0A /* UIScrollView+ScrollToTop_Runtime.m */,
+				3B6526B91EF2997900CED1A0 /* NSObject+KVOMainThread.swift */,
+			);
+			name = ScrollToTopButton;
+			sourceTree = "<group>";
+		};
+		3B6526BC1EF29A7300CED1A0 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				3B71DB8F1EF293EE007A1B0A /* AppDelegate.swift */,
+				3B71DB961EF293EE007A1B0A /* Assets.xcassets */,
+				3B71DB981EF293EE007A1B0A /* LaunchScreen.storyboard */,
+				3B71DB9B1EF293EE007A1B0A /* Info.plist */,
+				3B71DBBD1EF294A0007A1B0A /* ScrollToTopButtonDemo-Bridging-Header.h */,
+			);
+			name = Supports;
+			sourceTree = "<group>";
+		};
+		3B71DB831EF293EE007A1B0A = {
+			isa = PBXGroup;
+			children = (
+				3B71DB8E1EF293EE007A1B0A /* ScrollToTopButtonDemo */,
+				3B71DBA31EF293EE007A1B0A /* ScrollToTopButtonDemoTests */,
+				3B71DBAE1EF293EE007A1B0A /* ScrollToTopButtonDemoUITests */,
+				3B71DB8D1EF293EE007A1B0A /* Products */,
+				213E0C0C73A1BD22164B6DFF /* Pods */,
+				B45B1585D38D81A1176E12A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B71DB8D1EF293EE007A1B0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B71DB8C1EF293EE007A1B0A /* ScrollToTopButtonDemo.app */,
+				3B71DBA01EF293EE007A1B0A /* ScrollToTopButtonDemoTests.xctest */,
+				3B71DBAB1EF293EE007A1B0A /* ScrollToTopButtonDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B71DB8E1EF293EE007A1B0A /* ScrollToTopButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3B6526BB1EF29A4600CED1A0 /* ScrollToTopButton */,
+				3B71DB911EF293EE007A1B0A /* ViewController.swift */,
+				3B71DB931EF293EE007A1B0A /* Main.storyboard */,
+				3B6526BC1EF29A7300CED1A0 /* Supports */,
+			);
+			path = ScrollToTopButtonDemo;
+			sourceTree = "<group>";
+		};
+		3B71DBA31EF293EE007A1B0A /* ScrollToTopButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B71DBA41EF293EE007A1B0A /* ScrollToTopButtonDemoTests.swift */,
+				3B71DBA61EF293EE007A1B0A /* Info.plist */,
+			);
+			path = ScrollToTopButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		3B71DBAE1EF293EE007A1B0A /* ScrollToTopButtonDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B71DBAF1EF293EE007A1B0A /* ScrollToTopButtonDemoUITests.swift */,
+				3B71DBB11EF293EE007A1B0A /* Info.plist */,
+			);
+			path = ScrollToTopButtonDemoUITests;
+			sourceTree = "<group>";
+		};
+		B45B1585D38D81A1176E12A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B16E919AD600FE3A289E7658 /* libPods-ScrollToTopButtonDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B71DB8B1EF293EE007A1B0A /* ScrollToTopButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B71DBB41EF293EE007A1B0A /* Build configuration list for PBXNativeTarget "ScrollToTopButtonDemo" */;
+			buildPhases = (
+				3F29DB86BB9D6A667FFC6F8F /* [CP] Check Pods Manifest.lock */,
+				3B71DB881EF293EE007A1B0A /* Sources */,
+				3B71DB891EF293EE007A1B0A /* Frameworks */,
+				3B71DB8A1EF293EE007A1B0A /* Resources */,
+				1E3153AF982FC146ACF34A68 /* [CP] Embed Pods Frameworks */,
+				77E7F210421E12369B25B9DD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollToTopButtonDemo;
+			productName = ScrollToTopButtonDemo;
+			productReference = 3B71DB8C1EF293EE007A1B0A /* ScrollToTopButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B71DB9F1EF293EE007A1B0A /* ScrollToTopButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B71DBB71EF293EE007A1B0A /* Build configuration list for PBXNativeTarget "ScrollToTopButtonDemoTests" */;
+			buildPhases = (
+				3B71DB9C1EF293EE007A1B0A /* Sources */,
+				3B71DB9D1EF293EE007A1B0A /* Frameworks */,
+				3B71DB9E1EF293EE007A1B0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B71DBA21EF293EE007A1B0A /* PBXTargetDependency */,
+			);
+			name = ScrollToTopButtonDemoTests;
+			productName = ScrollToTopButtonDemoTests;
+			productReference = 3B71DBA01EF293EE007A1B0A /* ScrollToTopButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B71DBAA1EF293EE007A1B0A /* ScrollToTopButtonDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B71DBBA1EF293EE007A1B0A /* Build configuration list for PBXNativeTarget "ScrollToTopButtonDemoUITests" */;
+			buildPhases = (
+				3B71DBA71EF293EE007A1B0A /* Sources */,
+				3B71DBA81EF293EE007A1B0A /* Frameworks */,
+				3B71DBA91EF293EE007A1B0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B71DBAD1EF293EE007A1B0A /* PBXTargetDependency */,
+			);
+			name = ScrollToTopButtonDemoUITests;
+			productName = ScrollToTopButtonDemoUITests;
+			productReference = 3B71DBAB1EF293EE007A1B0A /* ScrollToTopButtonDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B71DB841EF293EE007A1B0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = dgut.com;
+				TargetAttributes = {
+					3B71DB8B1EF293EE007A1B0A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = E4N47T5ZS7;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					3B71DB9F1EF293EE007A1B0A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = E4N47T5ZS7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B71DB8B1EF293EE007A1B0A;
+					};
+					3B71DBAA1EF293EE007A1B0A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = E4N47T5ZS7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B71DB8B1EF293EE007A1B0A;
+					};
+				};
+			};
+			buildConfigurationList = 3B71DB871EF293EE007A1B0A /* Build configuration list for PBXProject "ScrollToTopButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B71DB831EF293EE007A1B0A;
+			productRefGroup = 3B71DB8D1EF293EE007A1B0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B71DB8B1EF293EE007A1B0A /* ScrollToTopButtonDemo */,
+				3B71DB9F1EF293EE007A1B0A /* ScrollToTopButtonDemoTests */,
+				3B71DBAA1EF293EE007A1B0A /* ScrollToTopButtonDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B71DB8A1EF293EE007A1B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B71DB9A1EF293EE007A1B0A /* LaunchScreen.storyboard in Resources */,
+				3B71DB971EF293EE007A1B0A /* Assets.xcassets in Resources */,
+				3B71DB951EF293EE007A1B0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B71DB9E1EF293EE007A1B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B71DBA91EF293EE007A1B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E3153AF982FC146ACF34A68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollToTopButtonDemo/Pods-ScrollToTopButtonDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F29DB86BB9D6A667FFC6F8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		77E7F210421E12369B25B9DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollToTopButtonDemo/Pods-ScrollToTopButtonDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B71DB881EF293EE007A1B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B71DB921EF293EE007A1B0A /* ViewController.swift in Sources */,
+				3B71DBC01EF294A0007A1B0A /* UIScrollView+ScrollToTop_Runtime.m in Sources */,
+				3B71DB901EF293EE007A1B0A /* AppDelegate.swift in Sources */,
+				3B6526BA1EF2997900CED1A0 /* NSObject+KVOMainThread.swift in Sources */,
+				3B71DBC21EF294E6007A1B0A /* ScrollToTopButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B71DB9C1EF293EE007A1B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B71DBA51EF293EE007A1B0A /* ScrollToTopButtonDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B71DBA71EF293EE007A1B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B71DBB01EF293EE007A1B0A /* ScrollToTopButtonDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B71DBA21EF293EE007A1B0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B71DB8B1EF293EE007A1B0A /* ScrollToTopButtonDemo */;
+			targetProxy = 3B71DBA11EF293EE007A1B0A /* PBXContainerItemProxy */;
+		};
+		3B71DBAD1EF293EE007A1B0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B71DB8B1EF293EE007A1B0A /* ScrollToTopButtonDemo */;
+			targetProxy = 3B71DBAC1EF293EE007A1B0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B71DB931EF293EE007A1B0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B71DB941EF293EE007A1B0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B71DB981EF293EE007A1B0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B71DB991EF293EE007A1B0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B71DBB21EF293EE007A1B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B71DBB31EF293EE007A1B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B71DBB51EF293EE007A1B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDE1156FEDAA8CD12059839E /* Pods-ScrollToTopButtonDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = E4N47T5ZS7;
+				INFOPLIST_FILE = ScrollToTopButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dgut.ScrollToTopButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ScrollToTopButtonDemo/ScrollToTopButtonDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3B71DBB61EF293EE007A1B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5725D6053BE60A26C0BE96C3 /* Pods-ScrollToTopButtonDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = E4N47T5ZS7;
+				INFOPLIST_FILE = ScrollToTopButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dgut.ScrollToTopButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ScrollToTopButtonDemo/ScrollToTopButtonDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3B71DBB81EF293EE007A1B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E4N47T5ZS7;
+				INFOPLIST_FILE = ScrollToTopButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dgut.ScrollToTopButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollToTopButtonDemo.app/ScrollToTopButtonDemo";
+			};
+			name = Debug;
+		};
+		3B71DBB91EF293EE007A1B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E4N47T5ZS7;
+				INFOPLIST_FILE = ScrollToTopButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dgut.ScrollToTopButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollToTopButtonDemo.app/ScrollToTopButtonDemo";
+			};
+			name = Release;
+		};
+		3B71DBBB1EF293EE007A1B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = E4N47T5ZS7;
+				INFOPLIST_FILE = ScrollToTopButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dgut.ScrollToTopButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ScrollToTopButtonDemo;
+			};
+			name = Debug;
+		};
+		3B71DBBC1EF293EE007A1B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = E4N47T5ZS7;
+				INFOPLIST_FILE = ScrollToTopButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dgut.ScrollToTopButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ScrollToTopButtonDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B71DB871EF293EE007A1B0A /* Build configuration list for PBXProject "ScrollToTopButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B71DBB21EF293EE007A1B0A /* Debug */,
+				3B71DBB31EF293EE007A1B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B71DBB41EF293EE007A1B0A /* Build configuration list for PBXNativeTarget "ScrollToTopButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B71DBB51EF293EE007A1B0A /* Debug */,
+				3B71DBB61EF293EE007A1B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B71DBB71EF293EE007A1B0A /* Build configuration list for PBXNativeTarget "ScrollToTopButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B71DBB81EF293EE007A1B0A /* Debug */,
+				3B71DBB91EF293EE007A1B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B71DBBA1EF293EE007A1B0A /* Build configuration list for PBXNativeTarget "ScrollToTopButtonDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B71DBBB1EF293EE007A1B0A /* Debug */,
+				3B71DBBC1EF293EE007A1B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B71DB841EF293EE007A1B0A /* Project object */;
+}
